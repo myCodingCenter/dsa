@@ -15,7 +15,6 @@ struct point
 void print(struct point *ptr){
     printf("%d %d\n",ptr->x,ptr->y);
 }
-#include <stdio.h>
 void main(){
     struct point p1 = {2,3};
     struct point p2 = {3,2};

@@ -9,7 +9,7 @@ struct point
     int x;
     int y;
 };
-struct point print(struct point);
+struct point print(struct point); 
 void main(){
     struct point p1 = {3,4};
     printf("Before\n x = %d, y = %d\n",p1.x,p1.y);

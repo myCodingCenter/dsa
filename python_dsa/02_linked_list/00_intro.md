@@ -43,3 +43,60 @@ tail is end with null value
 
 - ready heavy go for array
 - write heavpy got for linked list
+
+### create a node
+
+```python
+    class node:
+        def __init__(self,value):
+            self.data = value
+            self.next = None
+
+    a = Node(1)
+    b = Node(2)
+    c = Node(3)
+    # address of a
+    id(a)
+    print(a.data)
+    print(b.data)
+    print(c.data)
+
+    a.next = b
+    b.next = c
+```
+
+### create a lined list
+
+```python
+    class linkedList:
+        def __init__(self):
+            # empty linked list = 0 node; head = none
+            self.head = None
+            # counting node
+            self.n = 0
+        def __len(self):
+            return self.n
+     l = linkedList()
+     len(l)
+     ## insert 
+     #1. head 2. tail(append) 3. middle(insert) 
+     #-- traverse
+    # print  
+    # delete
+    # 1. head 2. tail(pop) 3. value(remove) 4. index
+    # search
+    # 1. value 3. index
+
+
+    def insert_head(self,value):
+        # create a new node
+        new_node = node(value)
+
+        # create connection
+        new_node.next = self.head
+
+        # reassign
+        self.head = new_node
+
+
+```
